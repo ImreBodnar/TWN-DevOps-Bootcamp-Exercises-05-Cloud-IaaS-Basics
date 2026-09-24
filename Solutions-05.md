@@ -46,3 +46,14 @@ cat ~/.ssh/id_ed25519.pub
 # After I created a new droplet on DigitalOcean by using my new SSH keypair...
 ssh -i ~/.ssh/id_ed25519 root@139.59.211.243
 ```
+
+## Exercise 3
+
+```bash
+ssh -i ~/.ssh/id_ed25519 root@139.59.211.243
+
+sudo apt update
+sudo apt install -y nodejs npm
+nodejs --version
+npm --version
+```
