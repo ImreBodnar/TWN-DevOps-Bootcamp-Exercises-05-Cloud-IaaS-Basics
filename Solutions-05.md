@@ -36,3 +36,13 @@ cd Repositories/TWN-DevOps-Bootcamp-Exercises-05-Cloud-IaaS-Basics/app
 # Packaging the app.
 npm pack
 ```
+
+## Exercise 2
+
+```bash
+# Creating a new SSH key-pair for my new droplet...
+ssh-keygen
+cat ~/.ssh/id_ed25519.pub
+# After I created a new droplet on DigitalOcean by using my new SSH keypair...
+ssh -i ~/.ssh/id_ed25519 root@139.59.211.243
+```
