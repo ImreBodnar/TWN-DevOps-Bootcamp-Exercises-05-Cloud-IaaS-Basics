@@ -57,3 +57,10 @@ sudo apt install -y nodejs npm
 nodejs --version
 npm --version
 ```
+
+## Exercise 4
+
+```bash
+# Doing this without ssh-ing into the droplet...
+scp bootcamp-node-project-1.0.0.tgz root@139.59.211.243:/root
+```
