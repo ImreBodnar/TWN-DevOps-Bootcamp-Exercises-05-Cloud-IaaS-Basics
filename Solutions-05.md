@@ -31,5 +31,8 @@ git push -u origin main
 
 ```bash
 # Navigate to the working directory.
-cd Repositories/TWN-DevOps-Bootcamp-Exercises-05-Cloud-IaaS-Basics
+cd Repositories/TWN-DevOps-Bootcamp-Exercises-05-Cloud-IaaS-Basics/app
+
+# Packaging the app.
+npm pack
 ```
