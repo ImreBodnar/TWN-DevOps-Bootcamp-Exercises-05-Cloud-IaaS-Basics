@@ -83,3 +83,9 @@ npm install
 # Run the app.
 node server.js &
 ```
+
+## Exercise 6
+
+I included to the project 2 pictures:
++ Digital-Ocean-FireWall-Settings.jpg - I reused the firewall we used during the course and added a new rule to open port 3000.
++ Exercises-6-Result.jpg - It shows the proof of I successfully accessed the app from my browser.
