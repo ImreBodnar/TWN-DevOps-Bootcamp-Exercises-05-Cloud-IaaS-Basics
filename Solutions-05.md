@@ -50,6 +50,7 @@ ssh -i ~/.ssh/id_ed25519 root@139.59.211.243
 ## Exercise 3
 
 ```bash
+# Connect to my droplet.
 ssh -i ~/.ssh/id_ed25519 root@139.59.211.243
 
 sudo apt update
@@ -63,4 +64,22 @@ npm --version
 ```bash
 # Doing this without ssh-ing into the droplet...
 scp bootcamp-node-project-1.0.0.tgz root@139.59.211.243:/root
+```
+
+## Exercise 5
+
+```bash
+# Connect to my droplet.
+ssh -i ~/.ssh/id_ed25519 root@139.59.211.243
+
+# Unpack the app.
+mkdir my-node-app
+tar -xzvf bootcamp-node-project-1.0.0.tgz -C ./my-node-app
+
+# Install dependencies.
+cd ./my-node-app/package/
+npm install
+
+# Run the app.
+node server.js &
 ```
